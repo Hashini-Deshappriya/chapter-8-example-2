@@ -38,6 +38,6 @@ jobs:
       
     - run: docker build -t hashini1995/week07video:latest .
     - run: docker login -u hashini1995
-    - run: docker push hashini1995/week07video:latest .
+    - run: docker push hashini1995/week07video:latest 
 
 
