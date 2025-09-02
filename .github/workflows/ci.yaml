@@ -35,3 +35,9 @@ jobs:
     - run: npm install
     - run: npm ci
     - run: npm test
+      
+    - run: docker build -t hashini1995/week07video:latest .
+    - run: docker login -u hashini1995
+    - run: docker push hashini1995/week07video:latest .
+
+
